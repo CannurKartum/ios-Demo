@@ -43,7 +43,7 @@ struct ContentView: View {
                     Image(systemName: "binoculars.fill")
                     Image(systemName: "fork.knife")}.foregroundColor(.gray).font(.caption)
             }.padding().background(Rectangle().foregroundColor(.white).cornerRadius(15).shadow(radius: 15))
-                .padding().padding()
+                .padding()
         }
         }
         
